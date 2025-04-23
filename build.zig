@@ -5,10 +5,10 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
 
     const xlib_mod = b.addModule("xlib", .{
-        .root_source_file = b.path("src/xlib.zig"),
+        .root_source_file = b.path("src/root.zig"),
         .target = target,
         .optimize = optimize,
         .link_libc = true,
     });
-    xlib_mod.linkSystemLibrary("X11", .{}); 
+    xlib_mod.linkSystemLibrary("X11", .{});
  }

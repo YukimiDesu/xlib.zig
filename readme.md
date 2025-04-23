@@ -1,2 +1,2 @@
 # xlib.zig
-Small zig bindings to xlib, made for YukimiWM.
+Generated bindings for xlib.h and keysym.h
