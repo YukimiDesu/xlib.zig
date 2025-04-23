@@ -1,0 +1,16 @@
+.{
+    .name = .xlib,
+
+    .version = "0.0.1",
+    .fingerprint = 0xd981b5b1547e4d4d, // Don't remove!
+    .minimum_zig_version = "0.14.0",
+
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "license",
+        "readme.md",
+    },
+}
